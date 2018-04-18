@@ -33,9 +33,15 @@ You either set a color for each Bar or you don't, and you can mix and match if y
 
 Once your view is in place and your **iChartView** instance ready, make an array with your *BarData* Objects and use one of 2 methods to draw your graph :
 
-1. \- (void) drawChartForPercentages:(NSMutableArray*) data;
+1. 
+```objective-c
+- (void) drawChartForPercentages:(NSMutableArray*) data;
+```
     * The **value** attibute of each of your BarData Object must be an *int* ]0, 100]
-2. \- (void) drawChartForValues:(NSMutableArray*) data withMaxValue:(long) maxValue;
+2. 
+```objective-c
+- (void) drawChartForValues:(NSMutableArray*) data withMaxValue:(long) maxValue;
+```
     * **maxValue** would represent 100% and the **value** attibute of each of your BarData Object must be an *int* ]0, maxValue]
     
 ### iBarSelectionDelegate
