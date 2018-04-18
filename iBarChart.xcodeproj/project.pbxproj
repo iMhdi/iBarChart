@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2A43FDB12084F4350099BC37 /* iBarChartLib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2A43FDB22084F4350099BC37 /* Build configuration list for PBXAggregateTarget "iBarChartLib" */;
+			buildPhases = (
+				2A43FDB72084F4D80099BC37 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = iBarChartLib;
+			productName = iBarChartLib;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2A43FDA62084F2700099BC37 /* iChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A43FDA52084F2700099BC37 /* iChartView.m */; };
+		2A43FDAA2084F28A0099BC37 /* iBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A43FDA72084F28A0099BC37 /* iBarView.m */; };
+		2A43FDAE2084F2900099BC37 /* VerticalLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A43FDAD2084F2900099BC37 /* VerticalLabel.m */; };
+		2A43FDB82084F5E70099BC37 /* VerticalLabel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2A43FDAC2084F2900099BC37 /* VerticalLabel.h */; };
+		2A43FDB92084F5E70099BC37 /* VerticalLabel.xib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2A43FDAB2084F2900099BC37 /* VerticalLabel.xib */; };
+		2A43FDBA2084F5E70099BC37 /* iBarView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2A43FDA82084F28A0099BC37 /* iBarView.h */; };
+		2A43FDBB2084F5E70099BC37 /* iBarView.xib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2A43FDA92084F28A0099BC37 /* iBarView.xib */; };
+		2A43FDBC2084F5E70099BC37 /* iChartView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2A43FDA42084F2700099BC37 /* iChartView.h */; };
+		2A43FDBD2084F5E70099BC37 /* iChartView.xib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2A43FDA32084F2700099BC37 /* iChartView.xib */; };
+		2A43FE432085DE020099BC37 /* BarData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A43FE422085DE020099BC37 /* BarData.m */; };
+		2A43FE47208618DC0099BC37 /* BarData.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2A43FE412085DE020099BC37 /* BarData.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2A43FD942084F1DD0099BC37 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				2A43FE47208618DC0099BC37 /* BarData.h in CopyFiles */,
+				2A43FDB82084F5E70099BC37 /* VerticalLabel.h in CopyFiles */,
+				2A43FDB92084F5E70099BC37 /* VerticalLabel.xib in CopyFiles */,
+				2A43FDBA2084F5E70099BC37 /* iBarView.h in CopyFiles */,
+				2A43FDBB2084F5E70099BC37 /* iBarView.xib in CopyFiles */,
+				2A43FDBC2084F5E70099BC37 /* iChartView.h in CopyFiles */,
+				2A43FDBD2084F5E70099BC37 /* iChartView.xib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2A43FD962084F1DD0099BC37 /* libiBarChart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiBarChart.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A43FDA32084F2700099BC37 /* iChartView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iChartView.xib; sourceTree = "<group>"; };
+		2A43FDA42084F2700099BC37 /* iChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iChartView.h; sourceTree = "<group>"; };
+		2A43FDA52084F2700099BC37 /* iChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iChartView.m; sourceTree = "<group>"; };
+		2A43FDA72084F28A0099BC37 /* iBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iBarView.m; sourceTree = "<group>"; };
+		2A43FDA82084F28A0099BC37 /* iBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iBarView.h; sourceTree = "<group>"; };
+		2A43FDA92084F28A0099BC37 /* iBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iBarView.xib; sourceTree = "<group>"; };
+		2A43FDAB2084F2900099BC37 /* VerticalLabel.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VerticalLabel.xib; sourceTree = "<group>"; };
+		2A43FDAC2084F2900099BC37 /* VerticalLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerticalLabel.h; sourceTree = "<group>"; };
+		2A43FDAD2084F2900099BC37 /* VerticalLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerticalLabel.m; sourceTree = "<group>"; };
+		2A43FE412085DE020099BC37 /* BarData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarData.h; sourceTree = "<group>"; };
+		2A43FE422085DE020099BC37 /* BarData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A43FD932084F1DD0099BC37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A43FD8D2084F1DD0099BC37 = {
+			isa = PBXGroup;
+			children = (
+				2A43FD982084F1DD0099BC37 /* iBarChart */,
+				2A43FD972084F1DD0099BC37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A43FD972084F1DD0099BC37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A43FD962084F1DD0099BC37 /* libiBarChart.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A43FD982084F1DD0099BC37 /* iBarChart */ = {
+			isa = PBXGroup;
+			children = (
+				2A43FDAF2084F2A30099BC37 /* iBarView */,
+				2A43FDA42084F2700099BC37 /* iChartView.h */,
+				2A43FDA52084F2700099BC37 /* iChartView.m */,
+				2A43FDA32084F2700099BC37 /* iChartView.xib */,
+			);
+			path = iBarChart;
+			sourceTree = "<group>";
+		};
+		2A43FDAF2084F2A30099BC37 /* iBarView */ = {
+			isa = PBXGroup;
+			children = (
+				2A43FDB02084F2B20099BC37 /* VerticalLabel */,
+				2A43FDA82084F28A0099BC37 /* iBarView.h */,
+				2A43FDA72084F28A0099BC37 /* iBarView.m */,
+				2A43FDA92084F28A0099BC37 /* iBarView.xib */,
+				2A43FE442085DE060099BC37 /* BarData */,
+			);
+			path = iBarView;
+			sourceTree = "<group>";
+		};
+		2A43FDB02084F2B20099BC37 /* VerticalLabel */ = {
+			isa = PBXGroup;
+			children = (
+				2A43FDAC2084F2900099BC37 /* VerticalLabel.h */,
+				2A43FDAD2084F2900099BC37 /* VerticalLabel.m */,
+				2A43FDAB2084F2900099BC37 /* VerticalLabel.xib */,
+			);
+			path = VerticalLabel;
+			sourceTree = "<group>";
+		};
+		2A43FE442085DE060099BC37 /* BarData */ = {
+			isa = PBXGroup;
+			children = (
+				2A43FE412085DE020099BC37 /* BarData.h */,
+				2A43FE422085DE020099BC37 /* BarData.m */,
+			);
+			path = BarData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A43FD952084F1DD0099BC37 /* iBarChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A43FD9F2084F1DD0099BC37 /* Build configuration list for PBXNativeTarget "iBarChart" */;
+			buildPhases = (
+				2A43FD922084F1DD0099BC37 /* Sources */,
+				2A43FD932084F1DD0099BC37 /* Frameworks */,
+				2A43FD942084F1DD0099BC37 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iBarChart;
+			productName = iBarChart;
+			productReference = 2A43FD962084F1DD0099BC37 /* libiBarChart.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A43FD8E2084F1DD0099BC37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "El Mahdi Boukhris";
+				TargetAttributes = {
+					2A43FD952084F1DD0099BC37 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					2A43FDB12084F4350099BC37 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 2A43FD912084F1DD0099BC37 /* Build configuration list for PBXProject "iBarChart" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A43FD8D2084F1DD0099BC37;
+			productRefGroup = 2A43FD972084F1DD0099BC37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A43FD952084F1DD0099BC37 /* iBarChart */,
+				2A43FDB12084F4350099BC37 /* iBarChartLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A43FDB72084F4D80099BC37 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target ${PROJECT_NAME} ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\"\nBUILD_ROOT=\"${BUILD_ROOT}\" xcodebuild -target ${PROJECT_NAME} -configuration ${CONFIGURATION} -sdk iphonesimulator -arch x86_64 -arch i386 -arch armv7 -arch armv7s -arch arm64 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\"\n\n# Last touch. copy the header files. Just for convenience\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos\" \"${UNIVERSAL_OUTPUTFOLDER}/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A43FD922084F1DD0099BC37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A43FDAA2084F28A0099BC37 /* iBarView.m in Sources */,
+				2A43FDA62084F2700099BC37 /* iChartView.m in Sources */,
+				2A43FDAE2084F2900099BC37 /* VerticalLabel.m in Sources */,
+				2A43FE432085DE020099BC37 /* BarData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2A43FD9D2084F1DD0099BC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2A43FD9E2084F1DD0099BC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A43FDA02084F1DD0099BC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AZ7KRNMEKM;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A43FDA12084F1DD0099BC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AZ7KRNMEKM;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2A43FDB32084F4350099BC37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AZ7KRNMEKM;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A43FDB42084F4350099BC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AZ7KRNMEKM;
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A43FD912084F1DD0099BC37 /* Build configuration list for PBXProject "iBarChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A43FD9D2084F1DD0099BC37 /* Debug */,
+				2A43FD9E2084F1DD0099BC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A43FD9F2084F1DD0099BC37 /* Build configuration list for PBXNativeTarget "iBarChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A43FDA02084F1DD0099BC37 /* Debug */,
+				2A43FDA12084F1DD0099BC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A43FDB22084F4350099BC37 /* Build configuration list for PBXAggregateTarget "iBarChartLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A43FDB32084F4350099BC37 /* Debug */,
+				2A43FDB42084F4350099BC37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A43FD8E2084F1DD0099BC37 /* Project object */;
+}

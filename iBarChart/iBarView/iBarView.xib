@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14109"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BarView">
+            <connections>
+                <outlet property="mBarHeightConstraint" destination="YTY-ft-4V9" id="Sqe-5b-QVy"/>
+                <outlet property="mBarView" destination="Kns-Ya-HN7" id="7lv-Wz-jX1"/>
+                <outlet property="mRightDivider" destination="QQf-zF-OMp" id="yC4-BI-BCR"/>
+                <outlet property="mValueLabel" destination="aTt-yg-7tC" id="bfO-0O-wwB"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="135"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="odm-BM-BQD" userLabel="hDivider">
+                    <rect key="frame" x="0.0" y="94" width="80" height="1"/>
+                    <color key="backgroundColor" red="0.81568627449999997" green="0.84705882349999995" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="a1f-fm-y0Y"/>
+                    </constraints>
+                </view>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QQf-zF-OMp" userLabel="vDividerRight">
+                    <rect key="frame" x="79" y="94" width="1" height="8"/>
+                    <color key="backgroundColor" red="0.81568627449999997" green="0.84705882349999995" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="eGp-oj-OdH"/>
+                        <constraint firstAttribute="height" constant="8" id="yeP-57-DZm"/>
+                    </constraints>
+                </view>
+                <view clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cFD-Ja-dCB">
+                    <rect key="frame" x="2" y="95" width="76" height="40"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aTt-yg-7tC" customClass="VerticalLabel">
+                            <rect key="frame" x="0.0" y="0.0" width="76" height="25"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="valueLabel" value="13h"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="aTt-yg-7tC" firstAttribute="leading" secondItem="cFD-Ja-dCB" secondAttribute="leading" id="2xH-zJ-4eX"/>
+                        <constraint firstAttribute="trailing" secondItem="aTt-yg-7tC" secondAttribute="trailing" id="Klw-5J-1i1"/>
+                        <constraint firstItem="aTt-yg-7tC" firstAttribute="top" secondItem="cFD-Ja-dCB" secondAttribute="top" id="M38-P5-81V"/>
+                        <constraint firstAttribute="bottom" secondItem="aTt-yg-7tC" secondAttribute="bottom" id="QgN-Rq-oNp"/>
+                        <constraint firstAttribute="height" constant="40" id="qUX-w2-92P"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4iI-2g-IQJ" userLabel="vDividerLeft">
+                    <rect key="frame" x="0.0" y="95" width="1" height="8"/>
+                    <color key="backgroundColor" red="0.81568627450980391" green="0.84705882352941175" blue="0.92941176470588238" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="8" id="HLM-pD-Alz"/>
+                        <constraint firstAttribute="width" constant="1" id="glm-of-9MU"/>
+                    </constraints>
+                </view>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZS0-Sb-ZXY" userLabel="BarContainer">
+                    <rect key="frame" x="12" y="0.0" width="56" height="94"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kns-Ya-HN7">
+                            <rect key="frame" x="0.0" y="93" width="56" height="1"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="Kns-Ya-HN7" firstAttribute="centerX" secondItem="ZS0-Sb-ZXY" secondAttribute="centerX" id="Ms1-eB-TGS"/>
+                        <constraint firstItem="Kns-Ya-HN7" firstAttribute="width" secondItem="ZS0-Sb-ZXY" secondAttribute="width" id="NgQ-i2-xll"/>
+                        <constraint firstItem="Kns-Ya-HN7" firstAttribute="height" secondItem="ZS0-Sb-ZXY" secondAttribute="height" multiplier="0.01" identifier="BarHeightConstraint" id="YTY-ft-4V9"/>
+                        <constraint firstAttribute="bottom" secondItem="Kns-Ya-HN7" secondAttribute="bottom" id="d4C-Of-Vwv"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="cFD-Ja-dCB" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="2" id="0Pk-vb-7DE"/>
+                <constraint firstItem="ZS0-Sb-ZXY" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="1NI-BQ-pbI"/>
+                <constraint firstItem="ZS0-Sb-ZXY" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="23L-EM-5ld"/>
+                <constraint firstAttribute="bottom" secondItem="cFD-Ja-dCB" secondAttribute="bottom" id="3zR-y3-NaQ"/>
+                <constraint firstItem="4iI-2g-IQJ" firstAttribute="top" secondItem="cFD-Ja-dCB" secondAttribute="top" id="Cj5-ku-61y"/>
+                <constraint firstItem="QQf-zF-OMp" firstAttribute="top" secondItem="odm-BM-BQD" secondAttribute="top" id="Iob-N3-r8T"/>
+                <constraint firstItem="ZS0-Sb-ZXY" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.7" id="N6u-q2-PLJ"/>
+                <constraint firstAttribute="trailing" secondItem="cFD-Ja-dCB" secondAttribute="trailing" constant="2" id="RzB-Sy-0ea"/>
+                <constraint firstItem="odm-BM-BQD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="WNJ-jF-R3a"/>
+                <constraint firstItem="4iI-2g-IQJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="i1T-Uo-0J5"/>
+                <constraint firstAttribute="trailing" secondItem="QQf-zF-OMp" secondAttribute="trailing" id="i4e-Lg-cSE"/>
+                <constraint firstItem="cFD-Ja-dCB" firstAttribute="top" secondItem="odm-BM-BQD" secondAttribute="bottom" id="q7s-Xx-8Zh"/>
+                <constraint firstItem="odm-BM-BQD" firstAttribute="top" secondItem="ZS0-Sb-ZXY" secondAttribute="bottom" id="qcW-Yb-iVG"/>
+                <constraint firstAttribute="trailing" secondItem="odm-BM-BQD" secondAttribute="trailing" id="yOZ-V8-ORd"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-95" y="-289"/>
+        </view>
+    </objects>
+</document>
