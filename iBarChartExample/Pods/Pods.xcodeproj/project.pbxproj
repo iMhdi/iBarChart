@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D8357D1C806412960E11931C391908B /* BarData.h in Headers */ = {isa = PBXBuildFile; fileRef = 50E3B2511D306976E6F8F08FC1A38F7E /* BarData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		23A6DFF38368ABEC0ED6AF24850E6F22 /* VerticalLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E84C94D2E8A7D91F76BB151256C15E /* VerticalLabel.m */; };
+		33D8CB31B1F7B70B54A75C6C65CF0E3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		66F6CB31C49E199D798940D41508C9FC /* iChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AEE92A88D06A831CAB27C2F1C081E1 /* iChartView.m */; };
+		90648E309CCA2E25A2BFB0663DA44983 /* VerticalLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C74D42354B6CB0FDE1E68CA2B5AA77F /* VerticalLabel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9B20E2739D0D74048315CEB271422F9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		A9F2A9CA0DD6E0FA01FA9165A06FF6B3 /* BarData.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CF751C49F050F0B1FA3A090999B86E /* BarData.m */; };
+		AE345372B0B8A3969A010C69CBF801D0 /* iChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = EAF60C964AF48492754098A01B258537 /* iChartView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B5E93B2C4C0C9255A5233B4160801799 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		E56C2F3335D646BDA66A2EB3DDD4EA44 /* iBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 761E5731A161C133A37665612EE61784 /* iBarView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E87A3434B16F1AD5F6B93C5F3CCCBD52 /* iBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B6140A5B11BA491A3CA4F2841413CC /* iBarView.m */; };
+		F1CD0BCDE44AB431CD9C23ADE9F5658A /* iBarChart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09889FBAD6ABF94AD8D536479CEDC470 /* iBarChart-dummy.m */; };
+		F748FD2B0C32AB75485D1C905528230C /* Pods-iBarChartExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B6A53AE534DE5294DD44D7FA6911BCC /* Pods-iBarChartExample-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CE1BD81AE7AC3CFDBD38677C82C2B51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0F96A7BAE7BB042F32718511098BBB9;
+			remoteInfo = iBarChart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09889FBAD6ABF94AD8D536479CEDC470 /* iBarChart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iBarChart-dummy.m"; sourceTree = "<group>"; };
+		0B6A53AE534DE5294DD44D7FA6911BCC /* Pods-iBarChartExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iBarChartExample-dummy.m"; sourceTree = "<group>"; };
+		0C74D42354B6CB0FDE1E68CA2B5AA77F /* VerticalLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VerticalLabel.h; path = iBarChart/iBarView/VerticalLabel/VerticalLabel.h; sourceTree = "<group>"; };
+		27D635FBD97744178F2FD5FD48E36F03 /* Pods-iBarChartExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iBarChartExample.debug.xcconfig"; sourceTree = "<group>"; };
+		33AEE92A88D06A831CAB27C2F1C081E1 /* iChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = iChartView.m; path = iBarChart/iChartView.m; sourceTree = "<group>"; };
+		3594BBE3A6D68980D23B125218741DB8 /* iBarChart.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iBarChart.xcconfig; sourceTree = "<group>"; };
+		36B3014BCDFA89B14CAE262A71F065E8 /* Pods-iBarChartExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iBarChartExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		4022128D4D3ADE67D78BD19B37EABB8C /* Pods-iBarChartExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iBarChartExample.release.xcconfig"; sourceTree = "<group>"; };
+		50E3B2511D306976E6F8F08FC1A38F7E /* BarData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarData.h; path = iBarChart/iBarView/BarData/BarData.h; sourceTree = "<group>"; };
+		58B6140A5B11BA491A3CA4F2841413CC /* iBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = iBarView.m; path = iBarChart/iBarView/iBarView.m; sourceTree = "<group>"; };
+		6BCE5FC796F8D36A27212121639D0C9D /* Pods-iBarChartExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iBarChartExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		761E5731A161C133A37665612EE61784 /* iBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iBarView.h; path = iBarChart/iBarView/iBarView.h; sourceTree = "<group>"; };
+		82A02D252048D472B029A39F1392B128 /* iBarChart-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iBarChart-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BB2E06F234DDB1D9CF6413030DC236C /* Pods-iBarChartExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iBarChartExample-frameworks.sh"; sourceTree = "<group>"; };
+		A8A67CB676D0627E9233DD3D9D1BF6E9 /* libPods-iBarChartExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iBarChartExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B88DA70782C5171C055F60D954346265 /* iChartView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = iChartView.xib; path = iBarChart/iChartView.xib; sourceTree = "<group>"; };
+		C0E84C94D2E8A7D91F76BB151256C15E /* VerticalLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VerticalLabel.m; path = iBarChart/iBarView/VerticalLabel/VerticalLabel.m; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E7CF751C49F050F0B1FA3A090999B86E /* BarData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BarData.m; path = iBarChart/iBarView/BarData/BarData.m; sourceTree = "<group>"; };
+		EAF60C964AF48492754098A01B258537 /* iChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iChartView.h; path = iBarChart/iChartView.h; sourceTree = "<group>"; };
+		ED157B1BB29C569A6A956BD485A64E31 /* libiBarChart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiBarChart.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB4F83D23A1AE31A1DB63067BCE6E3F /* Pods-iBarChartExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iBarChartExample-resources.sh"; sourceTree = "<group>"; };
+		F205A385755B5DB892C753CE958B5C90 /* VerticalLabel.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = VerticalLabel.xib; path = iBarChart/iBarView/VerticalLabel/VerticalLabel.xib; sourceTree = "<group>"; };
+		FCAE9E72B2E969B4A685C5BC0616C622 /* iBarView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = iBarView.xib; path = iBarChart/iBarView/iBarView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3657DAC20F3AEDE42A095415F9DCAE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B20E2739D0D74048315CEB271422F9E /* Foundation.framework in Frameworks */,
+				33D8CB31B1F7B70B54A75C6C65CF0E3B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C655DC76FE29DDD926486D42A967822D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E93B2C4C0C9255A5233B4160801799 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		059FE8E811962BEC8C2ADF9329933022 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FCAE9E72B2E969B4A685C5BC0616C622 /* iBarView.xib */,
+				B88DA70782C5171C055F60D954346265 /* iChartView.xib */,
+				F205A385755B5DB892C753CE958B5C90 /* VerticalLabel.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0F3A700CD1DCD2B3707A916491DBD882 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED157B1BB29C569A6A956BD485A64E31 /* libiBarChart.a */,
+				A8A67CB676D0627E9233DD3D9D1BF6E9 /* libPods-iBarChartExample.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		45B785BEDA2E45D79813EDEE3655785D /* Pods-iBarChartExample */ = {
+			isa = PBXGroup;
+			children = (
+				6BCE5FC796F8D36A27212121639D0C9D /* Pods-iBarChartExample-acknowledgements.markdown */,
+				36B3014BCDFA89B14CAE262A71F065E8 /* Pods-iBarChartExample-acknowledgements.plist */,
+				0B6A53AE534DE5294DD44D7FA6911BCC /* Pods-iBarChartExample-dummy.m */,
+				9BB2E06F234DDB1D9CF6413030DC236C /* Pods-iBarChartExample-frameworks.sh */,
+				EDB4F83D23A1AE31A1DB63067BCE6E3F /* Pods-iBarChartExample-resources.sh */,
+				27D635FBD97744178F2FD5FD48E36F03 /* Pods-iBarChartExample.debug.xcconfig */,
+				4022128D4D3ADE67D78BD19B37EABB8C /* Pods-iBarChartExample.release.xcconfig */,
+			);
+			name = "Pods-iBarChartExample";
+			path = "Target Support Files/Pods-iBarChartExample";
+			sourceTree = "<group>";
+		};
+		4F682CB9F3911DD936FB73AEA9D83189 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				45B785BEDA2E45D79813EDEE3655785D /* Pods-iBarChartExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6F5100E436A0D5F87B4761E67EBAB932 /* iBarChart */ = {
+			isa = PBXGroup;
+			children = (
+				50E3B2511D306976E6F8F08FC1A38F7E /* BarData.h */,
+				E7CF751C49F050F0B1FA3A090999B86E /* BarData.m */,
+				761E5731A161C133A37665612EE61784 /* iBarView.h */,
+				58B6140A5B11BA491A3CA4F2841413CC /* iBarView.m */,
+				EAF60C964AF48492754098A01B258537 /* iChartView.h */,
+				33AEE92A88D06A831CAB27C2F1C081E1 /* iChartView.m */,
+				0C74D42354B6CB0FDE1E68CA2B5AA77F /* VerticalLabel.h */,
+				C0E84C94D2E8A7D91F76BB151256C15E /* VerticalLabel.m */,
+				059FE8E811962BEC8C2ADF9329933022 /* Resources */,
+				BAC2E8AE600555914F50F87F4EDDE8B5 /* Support Files */,
+			);
+			path = iBarChart;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				E15DF1794C497C31EAD0112E1BE47532 /* Pods */,
+				0F3A700CD1DCD2B3707A916491DBD882 /* Products */,
+				4F682CB9F3911DD936FB73AEA9D83189 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BAC2E8AE600555914F50F87F4EDDE8B5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3594BBE3A6D68980D23B125218741DB8 /* iBarChart.xcconfig */,
+				09889FBAD6ABF94AD8D536479CEDC470 /* iBarChart-dummy.m */,
+				82A02D252048D472B029A39F1392B128 /* iBarChart-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iBarChart";
+			sourceTree = "<group>";
+		};
+		E15DF1794C497C31EAD0112E1BE47532 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F5100E436A0D5F87B4761E67EBAB932 /* iBarChart */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4EB22746EA36ABE67FDC5106E3CE7F5E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8357D1C806412960E11931C391908B /* BarData.h in Headers */,
+				E56C2F3335D646BDA66A2EB3DDD4EA44 /* iBarView.h in Headers */,
+				AE345372B0B8A3969A010C69CBF801D0 /* iChartView.h in Headers */,
+				90648E309CCA2E25A2BFB0663DA44983 /* VerticalLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		334D851A9184D0DE2E6F72A91F26F862 /* Pods-iBarChartExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A82FDBE9B6CA2AE157B2F390D3A6F8A4 /* Build configuration list for PBXNativeTarget "Pods-iBarChartExample" */;
+			buildPhases = (
+				A9262DDCE8E191652D98E571F52277E1 /* Sources */,
+				C655DC76FE29DDD926486D42A967822D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDA2EBA299248EFD9B14FCD08C5763E1 /* PBXTargetDependency */,
+			);
+			name = "Pods-iBarChartExample";
+			productName = "Pods-iBarChartExample";
+			productReference = A8A67CB676D0627E9233DD3D9D1BF6E9 /* libPods-iBarChartExample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A0F96A7BAE7BB042F32718511098BBB9 /* iBarChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC6273A4D50EC71693553C39ABE3CD4 /* Build configuration list for PBXNativeTarget "iBarChart" */;
+			buildPhases = (
+				B4A7EFF79A0E6A449064BE5482AD70C1 /* Sources */,
+				A3657DAC20F3AEDE42A095415F9DCAE6 /* Frameworks */,
+				4EB22746EA36ABE67FDC5106E3CE7F5E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iBarChart;
+			productName = iBarChart;
+			productReference = ED157B1BB29C569A6A956BD485A64E31 /* libiBarChart.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0F3A700CD1DCD2B3707A916491DBD882 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0F96A7BAE7BB042F32718511098BBB9 /* iBarChart */,
+				334D851A9184D0DE2E6F72A91F26F862 /* Pods-iBarChartExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9262DDCE8E191652D98E571F52277E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F748FD2B0C32AB75485D1C905528230C /* Pods-iBarChartExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4A7EFF79A0E6A449064BE5482AD70C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F2A9CA0DD6E0FA01FA9165A06FF6B3 /* BarData.m in Sources */,
+				F1CD0BCDE44AB431CD9C23ADE9F5658A /* iBarChart-dummy.m in Sources */,
+				E87A3434B16F1AD5F6B93C5F3CCCBD52 /* iBarView.m in Sources */,
+				66F6CB31C49E199D798940D41508C9FC /* iChartView.m in Sources */,
+				23A6DFF38368ABEC0ED6AF24850E6F22 /* VerticalLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDA2EBA299248EFD9B14FCD08C5763E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iBarChart;
+			target = A0F96A7BAE7BB042F32718511098BBB9 /* iBarChart */;
+			targetProxy = 6CE1BD81AE7AC3CFDBD38677C82C2B51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16AF3B0B1295269005977140856B614D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3594BBE3A6D68980D23B125218741DB8 /* iBarChart.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/iBarChart/iBarChart-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = iBarChart;
+				PRODUCT_NAME = iBarChart;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9008D540413BD78FCC10052299C3630E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3594BBE3A6D68980D23B125218741DB8 /* iBarChart.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/iBarChart/iBarChart-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = iBarChart;
+				PRODUCT_NAME = iBarChart;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E448248017A1C9E1045892C0A3EEEEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27D635FBD97744178F2FD5FD48E36F03 /* Pods-iBarChartExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E433F467408712AC7A97C5D159413018 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4022128D4D3ADE67D78BD19B37EABB8C /* Pods-iBarChartExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A82FDBE9B6CA2AE157B2F390D3A6F8A4 /* Build configuration list for PBXNativeTarget "Pods-iBarChartExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E448248017A1C9E1045892C0A3EEEEF /* Debug */,
+				E433F467408712AC7A97C5D159413018 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBC6273A4D50EC71693553C39ABE3CD4 /* Build configuration list for PBXNativeTarget "iBarChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16AF3B0B1295269005977140856B614D /* Debug */,
+				9008D540413BD78FCC10052299C3630E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

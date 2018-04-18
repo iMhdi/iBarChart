@@ -1,0 +1,16 @@
+PODS:
+  - iBarChart (0.1)
+
+DEPENDENCIES:
+  - iBarChart
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - iBarChart
+
+SPEC CHECKSUMS:
+  iBarChart: 8c778631fb7918368e4e53f5e08cd8b19a1681b9
+
+PODFILE CHECKSUM: 221589065ec00b302a656276324868f97d5e2fb4
+
+COCOAPODS: 1.5.0
