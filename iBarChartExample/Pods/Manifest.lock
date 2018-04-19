@@ -1,5 +1,5 @@
 PODS:
-  - iBarChart (0.1)
+  - iBarChart (0.2)
 
 DEPENDENCIES:
   - iBarChart
@@ -9,7 +9,7 @@ SPEC REPOS:
     - iBarChart
 
 SPEC CHECKSUMS:
-  iBarChart: 8c778631fb7918368e4e53f5e08cd8b19a1681b9
+  iBarChart: 66752596baddb85690477ecea1afed607ae87a68
 
 PODFILE CHECKSUM: 221589065ec00b302a656276324868f97d5e2fb4
 

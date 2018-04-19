@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -46,16 +46,16 @@
 		6BCE5FC796F8D36A27212121639D0C9D /* Pods-iBarChartExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iBarChartExample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		761E5731A161C133A37665612EE61784 /* iBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iBarView.h; path = iBarChart/iBarView/iBarView.h; sourceTree = "<group>"; };
 		82A02D252048D472B029A39F1392B128 /* iBarChart-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iBarChart-prefix.pch"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9BB2E06F234DDB1D9CF6413030DC236C /* Pods-iBarChartExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iBarChartExample-frameworks.sh"; sourceTree = "<group>"; };
-		A8A67CB676D0627E9233DD3D9D1BF6E9 /* libPods-iBarChartExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iBarChartExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8A67CB676D0627E9233DD3D9D1BF6E9 /* libPods-iBarChartExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-iBarChartExample.a"; path = "libPods-iBarChartExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B88DA70782C5171C055F60D954346265 /* iChartView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = iChartView.xib; path = iBarChart/iChartView.xib; sourceTree = "<group>"; };
 		C0E84C94D2E8A7D91F76BB151256C15E /* VerticalLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VerticalLabel.m; path = iBarChart/iBarView/VerticalLabel/VerticalLabel.m; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E7CF751C49F050F0B1FA3A090999B86E /* BarData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BarData.m; path = iBarChart/iBarView/BarData/BarData.m; sourceTree = "<group>"; };
 		EAF60C964AF48492754098A01B258537 /* iChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iChartView.h; path = iBarChart/iChartView.h; sourceTree = "<group>"; };
-		ED157B1BB29C569A6A956BD485A64E31 /* libiBarChart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiBarChart.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED157B1BB29C569A6A956BD485A64E31 /* libiBarChart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libiBarChart.a; path = libiBarChart.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB4F83D23A1AE31A1DB63067BCE6E3F /* Pods-iBarChartExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iBarChartExample-resources.sh"; sourceTree = "<group>"; };
 		F205A385755B5DB892C753CE958B5C90 /* VerticalLabel.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = VerticalLabel.xib; path = iBarChart/iBarView/VerticalLabel/VerticalLabel.xib; sourceTree = "<group>"; };
 		FCAE9E72B2E969B4A685C5BC0616C622 /* iBarView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = iBarView.xib; path = iBarChart/iBarView/iBarView.xib; sourceTree = "<group>"; };
@@ -155,6 +155,7 @@
 				059FE8E811962BEC8C2ADF9329933022 /* Resources */,
 				BAC2E8AE600555914F50F87F4EDDE8B5 /* Support Files */,
 			);
+			name = iBarChart;
 			path = iBarChart;
 			sourceTree = "<group>";
 		};
@@ -377,7 +378,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
