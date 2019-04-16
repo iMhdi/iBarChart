@@ -67,7 +67,7 @@ To get a ballback if/when your the user interacts with your graph make your Clas
 ```
 * Called when no bar is selected, tipically when user selects a bar highlighting it and then reselects the same bar unhighlighting it.
 
-## Donation
+## Support
 If this project helped you, buy me coffee :coffee:
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/BEMahdi)
